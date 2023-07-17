@@ -1,10 +1,10 @@
 import Navbar from "./Navbar"
 import Pricing from "./pages/Pricing"
 import Home from "./pages/Home"
-import App from "./pages/app"
+import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
 
-function Appp() {
+function App() {
   return (
     <>
       <Navbar />
@@ -12,11 +12,11 @@ function Appp() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/about" element={<App />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </>
   )
 }
 
-export default Appp
+export default App

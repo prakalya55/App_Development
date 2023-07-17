@@ -4,12 +4,12 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Site Name
+        Hive
       </Link>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
-      </ul>
+        <CustomLink to="/pricing">Sign In</CustomLink>
+        <CustomLink to="/about">Sign Up</CustomLink>
+      </ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     </nav>
   )
 }
