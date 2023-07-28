@@ -1,0 +1,21 @@
+.feedback-item {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f4;
+    text-align: left;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+  .feedback-item-comment {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  .feedback-item-submitter-detail {
+    font-size: 14px;
+    font-weight: 200;
+    color: #555;
+  }
+  
