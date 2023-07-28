@@ -1,0 +1,22 @@
+.hi{
+    font-size: 40px;
+    background: -webkit-linear-gradient(#ffde91, #674908);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   padding-top: 70px;
+}
+
+.come
+{
+    font-size: 80px;
+    background: -webkit-linear-gradient(#ffe089, #ffcd62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 80px;
+}
+.wel{
+    background-size: cover;
+    background-image: url("bg1.jpg");
+    height: 635px;
+}
+

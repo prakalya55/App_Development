@@ -1,0 +1,100 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.tea{
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 665px;   
+}
+
+.tk
+{
+  text-align: center;
+  font-weight: 800;
+  padding-top: 30px;
+  color: #ffcaa8;
+}
+.lil
+{
+  padding-top: 13px;
+  text-align: center;
+  color: #462100;
+  font-weight:600;
+}
+.para
+{
+  text-align: center;
+    font-size: 16px;
+    color: #1e130c;
+    font-weight: 530;
+}
+.rose{
+   margin-top: 50px;
+   height: 500px;
+  }
+  .colse {
+  float: left;
+  width: 120px;
+  margin-left: 240px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  display: flex;
+  height: 495px;
+}
+
+@media screen and (max-width: 650px) {
+  .colse {
+    width: 150%;
+    display: block;
+    height: 400px;
+  }
+}
+
+.ca{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.im
+{
+  width: 50px;
+}
+.cont {
+  padding: 10 10px;
+  
+}
+
+.cont::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.ti {
+  color: rgb(51, 23, 50);
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 55px;
+}
+
+.buttonon {
+  margin-top: 20px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-left: 23px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+}
+
+.buttonon:hover {
+  background-color: #543015;
+}

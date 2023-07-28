@@ -1,0 +1,78 @@
+.msg{
+     background-image: url("ice.jpg");
+     background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+    
+    height: 630px;
+}
+.message-container {
+    height: 400px;
+    overflow-y: scroll;
+    border: 2px solid #ccc;
+    margin-left: 40px;
+    margin-top: -20px;
+    padding: 10px;
+    width: 1359px;
+  }
+  
+  .message {
+    background-color: #f0f0f0;
+    padding:5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .message:last-child {
+    margin-bottom: 0;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 400px;
+  }
+  
+  .input-container button {
+    padding: 10px 15px;
+    margin-left: 30px;
+    margin-right: 50px;
+    background-color: #725000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+  }
+  
+  .input-container button:hover {
+    background-color: #725000;
+  }
+  
+  /* Custom scrollbar for message container */
+  .message-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .message-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .message-container::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }
