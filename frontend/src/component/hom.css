@@ -1,0 +1,62 @@
+.con {
+    margin-top:0px;
+    height: 660px;
+    background-image:url("mount.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .c1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ .space1 th
+ {
+   
+    padding-left:94px;
+ }
+
+  .space td{
+    padding-left:100px;
+    margin-left:100px;
+  }
+  .i2 td
+  {
+    padding-left:200px;
+  }
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .space
+  {
+    margin-top: 00px;
+    
+  }
+  
+  .dark {
+    background-color:white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 900;
+    color: rgb(12, 12, 12);
+    margin-left: 100px;
+    gap:9px;
+    border-radius: 15px;
+  }
+  
+  .dark:hover {
+    background-color: #1b0017;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+  }
+  
+  /* Optional: Styles for the "ASSIGN TASK" heading */
+  .assign {
+    text-align: center;
+    margin: 20px 0;
+  }
